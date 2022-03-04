@@ -1,0 +1,60 @@
+h1 {
+    font-family: 'Alice', serif;
+    color: #F4E8D9;
+    position: relative;
+    left:5px;
+    word-wrap: break-word;
+    font-size: 60px;
+    padding:20px;
+  }
+  body {margin:0;padding:0;}
+  .B1 {
+    display:inline-block;
+    background-color:#84ABB3;
+      width:33%;
+      height:1117px;
+    position: relative;
+    vertical-align:top;
+   
+  }
+  
+  
+  .B1:hover{
+    background-color: #90b3ba;
+    
+  }
+  
+  .B2 {
+    display:inline-block;
+    background-color: #9AB3B4;
+       width:33.3%;
+      height:1117px;
+    position: relative;
+    left:2px;
+    
+    
+    vertical-align:top;
+  }
+  
+  .B2:hover{
+    background-color: #aec2c3;
+    
+  }
+  
+  
+  
+  .B3 {
+    display:inline-block;
+    background-color: #B0BBB5;
+       width:33%;
+      height:1117px;
+    position: relative;
+    left: 4px;
+    
+    vertical-align:top;
+  }
+  
+  .B3:hover{
+    
+    background-color:#bbc4bf;
+  }
