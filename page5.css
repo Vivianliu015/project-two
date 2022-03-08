@@ -1,0 +1,70 @@
+div.scroll {
+    width: 40%;
+    height: 80%;
+    overflow-x: hidden;
+    overflow-y: visible;
+    text-align: left;
+    color: white;
+    padding: 100px;
+    font-family: 'Alice', serif;
+    line-height: 30px;
+    letter-spacing: 1.35px;
+    position: absolute;
+    right: 350px;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+   
+  }
+  
+  .scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .t1{ 
+      
+      width: 0px;
+      height: 00px;
+      border-top: 130px solid #84ABB3;
+      border-right: 130px solid transparent;
+      position: fixed;
+      top: 0;
+      left: 0;
+    
+    
+  }
+  
+  
+  
+  
+  .t2{
+      width: 0;
+      height: 0;
+      border-bottom: 200px solid #89A9AA;
+      border-left: 200px solid transparent;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+  }
+  
+  .t2:hover{
+    color: #9AB3B4;
+    border-bottom: 200px solid #babfbc;
+    border-left: 200px solid transparent;
+  }
+  
+  
+  .t1:hover{
+      border-top: 130px solid #92b3bb;
+      border-right: 130px solid transparent;
+    
+  }
+  
+  .home{
+    font-family: 'Alice', serif;
+    color: #F4E8D9;
+    font-size: 30px;
+    text-decoration:none;
+  
+  }
+  
+  

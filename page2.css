@@ -1,0 +1,26 @@
+body{
+    background-color: #84ABB3;
+  
+  }
+  
+  h1{
+    font-family: 'Alice', serif;
+    color: #FDEEE6;
+    padding: 150px;
+    width: 800px;
+    font-weight: normal;
+    
+  }
+  
+  .t1{ 
+      
+      width: 0px;
+      height: 00px;
+      border-top: 130px solid #F4E8D9;
+      border-right: 130px solid transparent;
+      position: fixed;
+      top: 0;
+      left: 0;
+    
+    
+  }
