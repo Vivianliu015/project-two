@@ -6,9 +6,11 @@ body{
   h1{
     font-family: 'Alice', serif;
     color: #FDEEE6;
-    padding: 50px;
+    width: 70%;
     font-weight: normal;
-    padding: 200px;
+    margin-left: 70px;
+    margin-top: 200px;
+   
     
   }
   
@@ -50,3 +52,11 @@ body{
       border-right: 130px solid transparent;
     
   }
+
+  @media only screen and (max-width: 600px){
+    h1 {
+      font-size: 5vw;
+     
+    }
+  }
+  
