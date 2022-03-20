@@ -1,16 +1,16 @@
 div.scroll {
     width: 40%;
-    height: 80%;
+    height: 100%;
     overflow-x: hidden;
     overflow-y: visible;
     text-align: left;
     color: white;
-    padding: 100px;
     font-family: 'Alice', serif;
     line-height: 30px;
     letter-spacing: 1.35px;
     position: absolute;
-    right: 350px;
+    left: 30%;
+    top:10%;
     -ms-overflow-style: none;
     scrollbar-width: none; 
    
