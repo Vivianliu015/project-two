@@ -6,11 +6,14 @@ body{
   h1{
     font-family: 'Alice', serif;
     color: #FDEEE6;
-    padding: 50px;
+    width: 70%;
     font-weight: normal;
-    padding: 200px;
+    margin-left: 70px;
+    margin-top: 200px;
+   
     
   }
+  
   
   .t1{ 
       
@@ -29,20 +32,21 @@ body{
   
   
   .t2{
-      width: 0;
-      height: 0;
-      border-bottom: 200px solid #89A9AA;
-      border-left: 200px solid transparent;
-      position: fixed;
-      bottom: 0;
-      right: 0;
-  }
-  
-  .t2:hover{
-    color: #9AB3B4;
-    border-bottom: 200px solid #babfbc;
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid #8babac;
     border-left: 200px solid transparent;
-  }
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  
+}
+
+.t2:hover{
+  color: #a9c4c5;
+  border-bottom: 200px solid #babfbc;
+  border-left: 200px solid transparent;
+}
   
   
   .t1:hover{
@@ -50,3 +54,12 @@ body{
       border-right: 130px solid transparent;
     
   }
+
+
+  @media only screen and (max-width: 600px){
+    h1 {
+      font-size: 5vw;
+     
+    }
+  }
+  
